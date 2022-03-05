@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Zilla+Slab&amp;display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-12">
+                <div class="mt-3">
+                    <h1 style="text-align: center">Asian Kitchen's Menu</h1>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center mb-3">
+                <button type="button" class="btn btn-dark " id="btnAll">All</button>
+                <button type="button" class="btn btn-dark " id="btnKorea">Korea</button>
+                <button type="button" class="btn btn-dark " id="btnJapan">Japan</button>
+                <button type="button" class="btn btn-dark " id="btnChina">China</button>
+            </div>
+
+
+
+            <div class="col-md-6" id="display1">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img id="img1" src="#" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 w-100 bd-highlight">
+                                        <h5 class="card-title" id="cardTitle1"></h5>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p class="card-title" id="price1"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="card-text p-2" id="desc1"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6" id="display2">
+                <div class="card mb-3" style="max-width: 540px; ">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="#" class="img-fluid rounded-start" alt="..." id="img2">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 w-100 bd-highlight">
+                                        <h5 class="card-title" id="cardTitle2"></h5>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p class="card-title" id="price2"></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" id="desc2"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6" id="display3">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="#" class="img-fluid rounded-start" alt="..." id="img3">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 w-100 bd-highlight">
+                                        <h5 class="card-title" id="cardTitle3"></h5>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p class="card-title" id="price3"></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" id="desc3"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6" id="display4">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="#" class="img-fluid rounded-start" alt="..." id="img4">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 w-100 bd-highlight">
+                                        <h5 class="card-title" id="cardTitle4"></h5>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p class="card-title" id="price4"></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" id="desc4"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-6" id="display5">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="#" class="img-fluid rounded-start" alt="..." id="img5">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 w-100 bd-highlight">
+                                        <h5 class="card-title" id="cardTitle5"></h5>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p class="card-title" id="price5"></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" id="desc5"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="display6">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="#" class="img-fluid rounded-start" alt="..." id="img6">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 w-100 bd-highlight">
+                                        <h5 class="card-title" id="cardTitle6"></h5>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p class="card-title" id="price6"></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" id="desc6"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6" id="display7">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="#" class="img-fluid rounded-start" alt="..." id="img7">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 w-100 bd-highlight">
+                                        <h5 class="card-title" id="cardTitle7"></h5>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p class="card-title" id="price7"></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" id="desc7"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="display8">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="#" class="img-fluid rounded-start" alt="..." id="img8">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 w-100 bd-highlight">
+                                        <h5 class="card-title" id="cardTitle8"></h5>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p class="card-title" id="price8"></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" id="desc8"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6" id="display9">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="#" class="img-fluid rounded-start" alt="..." id="img9">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <div class="d-flex bd-highlight">
+                                    <div class="p-2 w-100 bd-highlight">
+                                        <h5 class="card-title" id="cardTitle9"></h5>
+                                    </div>
+                                    <div class="p-2 flex-shrink-1 bd-highlight">
+                                        <p class="card-title" id="price9"></p>
+                                    </div>
+                                </div>
+                                <p class="card-text" id="desc9"></p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="script.js"></script>
+</body>
+
+</html>
